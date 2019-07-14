@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    layout_width="-1"
+    layout_height="-1">
+
+    <WebView
+        id="@ref/0x7f0800b2"
+        layout_width="-1"
+        layout_height="-1" />
+</RelativeLayout>
