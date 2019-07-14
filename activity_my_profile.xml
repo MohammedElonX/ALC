@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    layout_width="-1"
+    layout_height="-1">
+
+    <LinearLayout
+        orientation="1"
+        layout_width="-1"
+        layout_height="-1">
+
+        <ImageView
+            layout_gravity="0x1"
+            layout_width="dimension(56065)"
+            layout_height="dimension(57601)"
+            layout_marginTop="dimension(2561)"
+            src="@ref/0x7f070065" />
+
+        <TextView
+            layout_gravity="0x1"
+            layout_width="-2"
+            layout_height="-2"
+            layout_marginTop="dimension(3841)"
+            layout_marginBottom="dimension(3841)"
+            text="Mohammed Isiuaka" />
+
+        <View
+            background="@ref/0x7f050027"
+            layout_width="-1"
+            layout_height="dimension(257)"
+            layout_marginBottom="dimension(3841)" />
+
+        <TextView
+            layout_width="-2"
+            layout_height="-2"
+            layout_marginLeft="dimension(3841)"
+            layout_marginBottom="dimension(3841)"
+            text="Track: Android" />
+
+        <TextView
+            layout_width="-2"
+            layout_height="-2"
+            layout_marginLeft="dimension(3841)"
+            layout_marginBottom="dimension(3841)"
+            text="Country: Nigeria" />
+
+        <TextView
+            layout_width="-2"
+            layout_height="-2"
+            layout_marginLeft="dimension(3841)"
+            layout_marginBottom="dimension(3841)"
+            text="Email: mohammedelonx@gmail.com" />
+
+        <TextView
+            layout_width="-2"
+            layout_height="-2"
+            layout_marginLeft="dimension(3841)"
+            layout_marginBottom="dimension(3841)"
+            text="Phone Number: +2347061181139" />
+
+        <TextView
+            layout_width="-2"
+            layout_height="-2"
+            layout_marginLeft="dimension(3841)"
+            text="Slack Username: @abu haneefah" />
+    </LinearLayout>
+</ScrollView>
