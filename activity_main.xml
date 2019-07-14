@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    layout_width="-1"
+    layout_height="-1">
+
+    <LinearLayout
+        orientation="1"
+        layout_width="-1"
+        layout_height="-1">
+
+        <TextView
+            textSize="dimension(7682)"
+            textStyle="0x1"
+            textColor="@ref/0x7f050028"
+            layout_gravity="0x1"
+            layout_width="-2"
+            layout_height="-2"
+            layout_marginTop="dimension(5121)"
+            layout_marginBottom="dimension(25601)"
+            text="WELCOME TO ALC 4.0" />
+
+        <Button
+            textSize="dimension(5122)"
+            layout_gravity="0x1"
+            layout_width="-2"
+            layout_height="dimension(10753)"
+            layout_marginBottom="dimension(12801)"
+            text="ABOUT ALC"
+            onClick="Second_Activity" />
+
+        <Button
+            textSize="dimension(5122)"
+            layout_gravity="0x1"
+            layout_width="-2"
+            layout_height="dimension(10753)"
+            layout_marginBottom="dimension(12801)"
+            text="My Profile"
+            onClick="Third_Activity" />
+    </LinearLayout>
+</ScrollView>
