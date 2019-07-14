@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1"
+    android:versionName="1.0"
+    package="com.android.alex.workout">
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26" />
+
+    <uses-permission
+        android:name="android.permission.INTERNET" />
+
+    <application
+        android:theme="@ref/0x7f0d0006"
+        android:label="@ref/0x7f0c001f"
+        android:icon="@ref/0x7f07005a"
+        android:debuggable="true"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:roundIcon="@ref/0x7f0b0001">
+
+        <activity
+            android:label="ALC 4 Phase 1"
+            android:name="com.android.alex.mo.MainActivity">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:label="My Profile"
+            android:name="com.android.alex.workout.MyProfile" />
+
+        <activity
+            android:label="About ALC"
+            android:name="com.android.alex.workout.AboutALC" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.0.2" />
+    </application>
+</manifest>
